@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # https://github.com/sublaim/clouddrive2
 # INSTALL_PATH='/storage/clouddrive'
-
 chmod +x "$0"
 if [[ $EUID -ne 0 ]]; then
     echo -e "非 root 用户，请用 sudo -i 切换并输入密码"
