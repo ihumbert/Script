@@ -6,9 +6,7 @@ if [[ $EUID -ne 0 ]]; then
     echo -e "非 root 用户，请用 sudo -i 切换并输入密码"
     exit 1
 fi
-
 VERSION='latest'
-
 if [ ! -n "$2" ]; then
   INSTALL_PATH='/storage/clouddrive'
 else
