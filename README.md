@@ -7,10 +7,10 @@ bash -c "$(curl https://raw.githubusercontent.com/ihumbert/Script/main/CoreElec/
 
 ## 一键安装卸载Clouddrive
 ## 安装命令
-curl -fsSL "https://raw.githubusercontent.com/ihumbert/Script/main/CoreElec/Clouddrive/clouddrive2forCoreElec.sh" | bash -s install mirror
+curl -fsSL "https://raw.githubusercontent.com/ihumbert/Script/main/CoreElec/Clouddrive/clouddriveforCoreElec.sh" | bash -s install mirror
 
 ## 卸载命令
-curl -fsSL "https://raw.githubusercontent.com/ihumbert/Script/main/CoreElec/Clouddrive/clouddrive2forCoreElec.sh" | bash -s uninstall mirror
+curl -fsSL "https://raw.githubusercontent.com/ihumbert/Script/main/CoreElec/Clouddrive/clouddriveforCoreElec.sh" | bash -s uninstall mirror
 
 ## 安装portainer-ce中文版
 docker run -d --restart=always --name="portainer" -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock 6053537/portainer-ce
